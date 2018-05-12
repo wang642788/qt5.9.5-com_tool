@@ -8,4 +8,5 @@
 
 
 extern void serial_open(const char *name);
+
 #endif // BASE_H
