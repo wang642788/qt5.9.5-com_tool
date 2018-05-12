@@ -1,10 +1,11 @@
 #-------------------------------------------------
 #
-# Project created by QtCreator 2018-05-13T01:34:28
+# Project created by QtCreator 2018-05-13T01:58:39
 #
 #-------------------------------------------------
 
 QT       += core gui
+QT       += serialport
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
@@ -25,10 +26,11 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 SOURCES += \
         main.cpp \
-        com_tool.cpp
+        comtool_mainwindow.cpp \
+    com_shake.cpp
 
 HEADERS += \
-        com_tool.h
+        comtool_mainwindow.h
 
 FORMS += \
-        com_tool.ui
+        comtool_mainwindow.ui
